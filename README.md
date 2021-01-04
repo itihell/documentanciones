@@ -64,3 +64,32 @@ Para levantar valet ejecutamos el siguiente comando
 ```sh
   $ valet start
 ```
+### Instalando PostgreSQL
+Para gestionar las bases de datos usaremos postgres
+> Instalación
+```sh 
+  $ sudo apt install postgresql postgresql-client
+```
+> Ver el estado 
+```sh 
+  $ systemctl status postgresql.service 
+```
+> Archivos a configurar dependiendo de la versión 
+```sh
+  $ sudo nano  /etc/postgresql/12/main/postgresql.conf
+  $ sudo nano /etc/postgresql/12/main/pg_hba.conf
+```
+> Reiniciando postgres
+```sh 
+  $ sudo systemctl restart postgresql
+```
+> Cambiando la clave del usuario postgres
+```sh
+  $ sudo su - postgres
+  $ psql -c "alter user postgres with password '12345678'"
+```
+> Agregando el driver de postgres a php 
+```sh 
+  $ sudo apt -y install php-pgsql
+```
+
