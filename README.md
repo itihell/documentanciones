@@ -92,4 +92,9 @@ Para gestionar las bases de datos usaremos postgres
 ```sh 
   $ sudo apt -y install php-pgsql
 ```
+### Restaurando la base de datos de postgres 
+
+```sh
+ $  pg_restore  -h localhost -p 5432 -U postgres -d sgu -v datos.backup 
+```
 
