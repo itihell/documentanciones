@@ -1,10 +1,8 @@
 # Comando sobre PostgreSQL
 > Restaurar la base de datos
 ```sh
-x-special/nautilus-clipboard
-copy
-file:///media/itihell/365E4F355E4EECE5/laragon/www/sgu
-file:///media/itihell/365E4F355E4EECE5/laragon/www/sguapi
-file:///media/itihell/365E4F355E4EECE5/laragon/www/sting
-
+  $ pg_restore  -h localhost -p 5432 -U postgres -d sgu -v datos.backup 
 ```
+##### Doonde 
+* [sgu] es la base de datos en postgres
+* [datos.backup] es el abackup que vamos a restaurar en postgres
