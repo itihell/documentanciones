@@ -10,6 +10,7 @@ sudo apt install php-mcryp
 sudo apt install php-xml
 sudo apt install php-zip
 sudo apt install php-pgsql
+sudo apt install php-gd
 ```
 * Ver la versión de php
 ```sh 
