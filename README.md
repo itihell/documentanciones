@@ -38,7 +38,7 @@ Abra el archivo .bashrc y al final de este escriba lo siguiente
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 ```
 
-> Reiniciando postgres
+> Reload bashrc
 ```sh 
   $ source .bashrc
 ```
