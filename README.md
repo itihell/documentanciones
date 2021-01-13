@@ -2,25 +2,19 @@
 
 ###  Instalando PHP
 ```sh
-sudo apt install php-fpm
-sudo apt install php-cli
-sudo apt install php-curl
-sudo apt install php-mbstring
-sudo apt install php-mcryp
-sudo apt install php-xml
-sudo apt install php-zip
-sudo apt install php-pgsql
-sudo apt install php-gd
-```
-* Ver la versión de php
-```sh 
-  $ php –version
+sudo apt install php-fpm && sudo apt install php-cli && sudo apt install php-curl && sudo apt install php-mbstring && sudo apt install php-xml && sudo apt install php-zip && sudo apt install php-pgsql && sudo apt install php-gd
 ```
 
 * Actaulizando el sistema
 ```sh 
   $ sudo apt update
 ```
+
+* Ver la versión de php
+```sh 
+  $ php –version
+```
+
 ### Instalando composer!
 > Antes de instalar composer debe estar instalado PHP
 ```sh
@@ -43,11 +37,17 @@ Abra el archivo .bashrc y al final de este escriba lo siguiente
 ```sh
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 ```
+
+> Reiniciando postgres
+```sh 
+  $ source .bashrc
+```
+
 Luego ejecute el comando 
 ```sh
   $ valet install
 ```
-Sida error al momento de instalar ejecutar el comando siguiente para instalara dependencias
+Si da error al momento de instalar ejecutar el comando siguiente para instalara dependencias
 ```sh
   $ sudo apt-get install network-manager libnss3-tools jq  xsel
 ```
@@ -93,6 +93,12 @@ Para gestionar las bases de datos usaremos postgres
 ```sh 
   $ sudo apt -y install php-pgsql
 ```
+
+> Reiniciando postgres
+```sh 
+  $ sudo systemctl restart postgresql
+```
+
 ### Restaurando la base de datos de postgres 
 
 ```sh
