@@ -2,7 +2,7 @@
 
 ###  Instalando PHP
 ```sh
-sudo apt install php-fpm && sudo apt install php-cli && sudo apt install php-curl && sudo apt install php-mbstring && sudo apt install php-xml && sudo apt install php-zip && sudo apt install php-pgsql && sudo apt install php-gd
+sudo apt install php-fpm php-cli php-curl php-mbstring php-xml php-zip php-pgsql php-gd php-soap
 ```
 
 * Actaulizando el sistema
