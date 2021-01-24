@@ -1,4 +1,4 @@
-# Intalando Valet en Linux 
+# Instalando Valet en Linux 
 
 ###  Instalando PHP
 ```sh
