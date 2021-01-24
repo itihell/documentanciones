@@ -1,4 +1,4 @@
-# Entorno de desarrollo en linux
+# Intalando Valet en Linux 
 
 ###  Instalando PHP
 ```sh
