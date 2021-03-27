@@ -50,6 +50,8 @@ Luego ejecute el comando
 Si da error al momento de instalar ejecutar el comando siguiente para instalara dependencias
 ```sh
   $ sudo apt-get install network-manager libnss3-tools jq  xsel
+  
+  https://cpriego.github.io/valet-linux/requirements#fedora
 ```
 
 Luego hacemos los siguiente para crear un carpeta en la cual estaran alojados nuestro proyectos de laravel
