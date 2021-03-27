@@ -2,7 +2,7 @@
 
 ###  Instalando PHP
 ```sh
-sudo apt install php-fpm php-cli php-curl php-mbstring php-xml php-zip php-pgsql php-gd php-soap
+sudo apt install php-fpm php-cli php-curl php-mbstring php-xml php-zip php-pgsql php-gd php-soap php-json
 ```
 
 * Actaulizando el sistema
