@@ -6,6 +6,8 @@ Pasos para instalar los driver de nvidia en fedora 36 y prepar el entorno de des
     * [Instalando driver nvidia](https://github.com/itihell/documentanciones/blob/main/driver_nvidia.md#instalando-los-driver-de-nvidia)
 * [Instalando NODE](https://github.com/itihell/documentanciones/blob/main/node.md)  
     * [Instalando NVM](https://github.com/itihell/documentanciones/blob/main/node.md#instalando-nvm)
+    * [Instalando Node](https://github.com/itihell/documentanciones/blob/main/node.md#intalando-la-versi%C3%B3n-16-de-node)
+    * [Definiendo por defecto](https://github.com/itihell/documentanciones/blob/main/node.md#definiendo-la-versi%C3%B3n-16-node-por-defecto)
 
 # Instalando Valet en Linux 
 

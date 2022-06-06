@@ -38,7 +38,7 @@ source ~/.zshrc # Si usas zsh
 ```sh
  $ nvm alias default v16.14.2 
 ```
-Depues de desto ya podras ver las versiones de los paquetes instalados con los siguientes comandos.  
+Depues de esto ya podras ver las versiones de los paquetes instalados con los siguientes comandos.  
 ```sh
 nvm -v # Para ver la versión de NVM
 node -v # Para ver la versión de NODE 
