@@ -1,5 +1,6 @@
 # Fedora 36
 
+__Despues de instalar fedora 36 lo primero que se debe hacer es actualizar el sistema operativo para obtener las actulizaciones de los paquetes instalados__
 ### Actualizando el sistema operativo
 ```sh
 sudo dnf -y update
