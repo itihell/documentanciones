@@ -63,3 +63,10 @@ mdkir ~/Sites
 cd ~/Sites # Entramos a la carpeta Sites
 valet park # Definimos la carpeta Sites como raiz
 ```
+
+### Reiniciando Valet
+Para levantar valet ejecutamos el siguiente comando
+```sh
+valet start # Iniciar valet
+valet restart # Reiniciar valet despues de alguna modificación
+```

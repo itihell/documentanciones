@@ -26,48 +26,6 @@ Pasos para instalar los driver de nvidia en fedora 36 y prepar el entorno de des
 * [Instalación de docker]()
 * [Instalación ZSH]()
 
-# Instalando Valet en Linux 
-
-### Instalando Valet Linux
-> Anstes de instalar valet linux debe estar instalado composer
-```sh
-  $ composer global require cpriego/valet-linux
-```
-##### Agregando la variable de entorno 
-Abra el archivo .bashrc y al final de este escriba lo siguiente
-```sh
-export PATH="$PATH:$HOME/.config/composer/vendor/bin"
-```
-
-> Reload bashrc
-```sh 
-  $ source .bashrc
-```
-
-Luego ejecute el comando 
-```sh
-  $ valet install
-```
-Si da error al momento de instalar ejecutar el comando siguiente para instalara dependencias
-```sh
-  $ sudo apt-get install network-manager libnss3-tools jq  xsel
-  
-  https://cpriego.github.io/valet-linux/requirements#fedora
-```
-
-Luego hacemos los siguiente para crear un carpeta en la cual estaran alojados nuestro proyectos de laravel
-```sh
-  $ cd 
-  $ mkdir Site
-  $ cd Site
-  $ valet park
-```
-
-##### Levantando Valet
-Para levantar valet ejecutamos el siguiente comando
-```sh
-  $ valet start
-```
 ### Instalando PostgreSQL
 Para gestionar las bases de datos usaremos postgres
 > Instalación
