@@ -24,23 +24,33 @@ Para la instalación es necesario tener instalado composer ya que lo instalaremo
 ```sh
 composer global require cpriego/valet-linux 
 ```
-* Instalando valet
+### Agregando la variable de entorno 
+Abra el archivo .bashrc o zshrc y al final de este escriba lo siguiente
+```sh
+export PATH="$PATH:$HOME/.config/composer/vendor/bin"
+```
+
+### Recargando bashrc o zshrc
+```sh 
+  $ source .bashrc # Si usa bash
+  $ source .zshhrc # Si usa zsh
+```
+### Instalando valet
 ```sh  
 valet install
 ``` 
-Si el problema del internet persiste debes de reiniciar tu adaptador de red con los siguientes comandos
-```sh
-sudo systemctl start systemd-resolved
-sudo systemctl enable systemd-resolved
-sudo systemctl restart NetworkManager
-```
 
 ### Definiendo dominios  
 Es probable que despues de instalar valet te quedes sin internet es por ello que te recomiendo que configures el dominio que usaras con valet por ejemplo el dominio _**.test**_ de la siguiente manera.  
 ```sh
 valet domain test
 ```
-
+Si el problema del internet persiste debes de reiniciar tu adaptador de red con los siguientes comandos
+```sh
+sudo systemctl start systemd-resolved
+sudo systemctl enable systemd-resolved
+sudo systemctl restart NetworkManager
+```
 
 ### Estableciendo carpeta raíz
 La carpeta raiz es el folder en el cual vamos a almacenar todos nuestros proyectos creados en php ya sea laravel, worpress o drupal.  
