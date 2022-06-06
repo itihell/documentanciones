@@ -20,7 +20,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 ``` 
 Si no esta al final de tu archivo agregalo y guarda tu archivo.
 
-* Recargando los datos de origen de la consola 
+### Recargando los datos de origen de la consola 
 
 Dependiendo de tu consola debes recargar los siguientes archivos (~/.bash_profile, ~/.zshrc, ~/.profile, or ~/.bashrc).
 
@@ -30,11 +30,11 @@ source ~/.bashrc # Si usas Bash recuerda bash es la consola por defecto
 source ~/.zshrc # Si usas zsh
 ```
 
-* Intalando la versión 16 de node
+### Intalando la versión 16 de node
 ```sh
  $ nvm install v16.14.2 
 ```
-* Definiendo la versión 16 node por defecto 
+### Definiendo la versión 16 node por defecto 
 ```sh
  $ nvm alias default v16.14.2 
 ```

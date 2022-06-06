@@ -1,3 +1,12 @@
+# Entorno en Fedora 36
+Pasos para instalar los driver de nvidia en fedora 36 y prepar el entorno de desarrollo para trabajar con laravel, node, postgres.
+
+* [Instalando driver NVIDIA](https://github.com/itihell/documentanciones/blob/main/driver_nvidia.md)
+    * [Instalando RPM Fusión](https://github.com/itihell/documentanciones/blob/main/driver_nvidia.md#instlando-los-rpm-fusion-para-obtener-los-driver-privativos-dentro-de-fedora)  
+    * [Instalando driver nvidia](https://github.com/itihell/documentanciones/blob/main/driver_nvidia.md#instalando-los-driver-de-nvidia)
+* [Instalando NODE](https://github.com/itihell/documentanciones/blob/main/node.md)  
+    * [Instalando NVM](https://github.com/itihell/documentanciones/blob/main/node.md#instalando-nvm)
+
 # Instalando Valet en Linux 
 
 ###  Instalando PHP
