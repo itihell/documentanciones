@@ -44,7 +44,14 @@ nvm -v # Para ver la versión de NVM
 node -v # Para ver la versión de NODE 
 npm -v # Para ver la versión de NPM
 ``` 
+
+### Instalando Laravel Echo Server
+```sh
+npm install -g laravel-echo-server 
+```
 ____
 ##### Paquetes instalados
 - **Node**: 16.14.2  
 - **NPM**: 8.5.0
+- **laravel-echo-server**: 1.6.3
+
