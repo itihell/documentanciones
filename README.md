@@ -28,33 +28,6 @@ Pasos para instalar los driver de nvidia en fedora 36 y prepar el entorno de des
 
 # Instalando Valet en Linux 
 
-###  Instalando PHP
-```sh
-sudo apt install php-fpm php-cli php-curl php-mbstring php-xml php-zip php-pgsql php-gd php-soap php-json
-```
-
-* Actaulizando el sistema
-```sh 
-  $ sudo apt update
-```
-
-* Ver la versión de php
-```sh 
-  $ php –version
-```
-
-### Instalando composer!
-> Antes de instalar composer debe estar instalado PHP
-```sh
-  $ sudo apt-get install curl
-```
-```sh
-  $ curl -sS https://getcomposer.org/installer | php
-```
-```sh
-  $ sudo mv ~/composer.phar /usr/local/bin/composer
-```
-
 ### Instalando Valet Linux
 > Anstes de instalar valet linux debe estar instalado composer
 ```sh

@@ -5,6 +5,6 @@ Valet Linux es un entorno de desarrollo de Laravel minimalistas para linux puede
 
 ### Instalación
 
-### Definiendo domios
+### Definiendo dominios
 
 ### Estableciendo carpeta raíz

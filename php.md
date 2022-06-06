@@ -19,7 +19,7 @@ php -v
 ### Instalacion extensión
 * Extesniones
 ```sh
-sudo dnf install php  php-cli php-fpm php-pgsql php-zip php-devel php-gd php-mcrypt php-mbstring php-curl php-xml php-pear php-bcmath php-json
+sudo dnf install php  php-cli php-fpm php-pgsql php-zip php-devel php-gd php-mcrypt php-mbstring php-curl php-xml php-pear php-bcmath php-json php-soap
 ``` 
 ### Instalación de composer
 * Instalación
