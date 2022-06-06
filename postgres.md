@@ -25,6 +25,7 @@ psql -c "alter user postgres with password '12345678'"
 ```sh
 # Archivo de configuración de postgres
 sudo cp /usr/pgsql-13/share/postgresql.conf.sample /usr/pgsql-13/share/postgresql.conf
+
 # Archivo de configuracion para replicación y acceso remoto
 sudo cp /usr/pgsql-13/share/pg_hba.conf.sample /usr/pgsql-13/share/pg_hba.conf
 

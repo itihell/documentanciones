@@ -21,47 +21,13 @@ Pasos para instalar los driver de nvidia en fedora 36 y prepar el entorno de des
     * [Configuración de dominios](https://github.com/itihell/documentanciones/blob/main/valet.md#definiendo-dominios)
     * [Configurando carpeta Raíz](https://github.com/itihell/documentanciones/blob/main/valet.md#estableciendo-carpeta-ra%C3%ADz)
 * [Instalando PostgreSQL](https://github.com/itihell/documentanciones/blob/main/postgres.md)
-    * [Instalación]()
+    * [Instalación](https://github.com/itihell/documentanciones/blob/main/postgres.md#instalaci%C3%B3n)
     * [Configurando el usuario postgres](https://github.com/itihell/documentanciones/blob/main/postgres.md#configurando-el-usuario-postgres)
     * [Configurando el listener](https://github.com/itihell/documentanciones/blob/main/postgres.md#configurando-el-listener)
     * [Configurando el acceso remoto](https://github.com/itihell/documentanciones/blob/main/postgres.md#configurando-el-acceso-remoto)
+    * [Reiniciando PostgreSQL](https://github.com/itihell/documentanciones/blob/main/postgres.md#reiniciando-postgresql)
     * [Restaurando base de datos](https://github.com/itihell/documentanciones/blob/main/postgres.md#comando-para-restaurar-una-base-de-datos)
 * [Instalación de docker]()
 * [Instalación ZSH]()
 
-### Instalando PostgreSQL
-Para gestionar las bases de datos usaremos postgres
-> Instalación
-```sh 
-  $ sudo apt install postgresql postgresql-client
-```
-> Ver el estado 
-```sh 
-  $ systemctl status postgresql.service 
-```
-> Archivos a configurar dependiendo de la versión 
-```sh
-  $ sudo nano  /etc/postgresql/12/main/postgresql.conf
-  $ sudo nano /etc/postgresql/12/main/pg_hba.conf
-```
-> Reiniciando postgres
-```sh 
-  $ sudo systemctl restart postgresql
-```
-
-> Agregando el driver de postgres a php 
-```sh 
-  $ sudo apt -y install php-pgsql
-```
-
-> Reiniciando postgres
-```sh 
-  $ sudo systemctl restart postgresql
-```
-
-### Restaurando la base de datos de postgres 
-
-```sh
- $  pg_restore  -h localhost -p 5432 -U postgres -d sgu -v datos.backup 
-```
 
