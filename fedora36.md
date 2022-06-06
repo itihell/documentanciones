@@ -38,3 +38,21 @@ sudo dnf install \*-firmware
 ```  
 #### **Nota** _Despues de instalar los RPM Fusión se recomiendo un reinicio del sistema_ 
 ### Instalando los driver de NVIDIA
+
+Instalacion de driver para tarjetas NVIDIA modelos superiores a 2014 para mas información puede visitar la pagina oficial de RPM Fusion [driver nvidia](https://rpmfusion.org/Howto/NVIDIA#Installing_the_drivers)
+
+```sh 
+sudo dnf update -y # Actualizando el sistema
+sudo dnf install akmod-nvidia # Driver privativo de nvidia
+es opcional
+``` 
+* Librerias opcionales para el soporte de cuda
+```sh 
+sudo dnf install xorg-x11-drv-nvidia-cuda # Soporte de graficas con cuda esta opción 
+sudo dnf install xorg-x11-drv-nvidia-cuda-libs
+```
+* Agregando caracteristicas de fedora workstation 
+```sh 
+sudo dnf groupupdate core
+sudo dnf install fedora-workstation-repositories
+``` 
