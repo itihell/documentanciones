@@ -1,0 +1,1 @@
+# Instalación de PHP 7.4 en fedora 36
