@@ -5,7 +5,7 @@ Puedes ir al siguiente [enlace](https://www.postgresql.org/download/linux/redhat
 
 ```sh  
 # Agregadndo el respositorio RPM Oficial de postgres:
-sudo dnf install -y https://download.postgresql.org/pub/repos/yum/reporpms/F-36-x86_64/pgdg-fedora-repo-latest.noarch.rpm
+sudo dnf install -y https://download.postgresql.org/pub/repos/yum/reporpms/F-38-x86_64/pgdg-fedora-repo-latest.noarch.rpm
 
 # Instalando posgres:
 sudo dnf install -y postgresql13-server
